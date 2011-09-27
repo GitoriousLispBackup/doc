@@ -1,0 +1,24 @@
+Global features
+  c++ - gcc (Linux) +
+        VS2010      -
+  lisp - clisp      +
+         clozurecl  +
+         sbcl       +
+
+Performance analyzer and report generator
+  Supports easy way of gathering work information             +
+  Supports timing of subintervals and loops                   +
+  Supports OpenCL timing                                      -
+  Generates reports in XML formats                            +
+  Converts XML reports to html documents                      +
+  Contains GUI to view reports                                -
+  Converts XML reports to text format for automatic analysis  +
+
+Command Line and Configuration
+  Supports key, flag and action argument types                            +
+  Automatically adds --help action                                        +
+  Supports integer, float and string argument types                       +
+  Supports argument arrays                                                +
+  Supports configuration files in .ini and .xml formats                   -
+  Supports correctness check for general cases (range of variable,        +
+                                                correctness of filename)  +
