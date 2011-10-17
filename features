@@ -5,15 +5,6 @@ Global features
          clozurecl  +
          sbcl       +
 
-Performance analyzer and report generator
-  Supports easy way of gathering work information             +
-  Supports timing of subintervals and loops                   +
-  Supports OpenCL timing                                      -
-  Generates reports in XML formats                            +
-  Converts XML reports to html documents                      +
-  Contains GUI to view reports                                -
-  Converts XML reports to text format for automatic analysis  +
-
 Command Line and Configuration
   Supports key, flag and action argument types                            +
   Automatically adds --help action                                        +
@@ -22,3 +13,74 @@ Command Line and Configuration
   Supports configuration files in .ini and .xml formats                   -
   Supports correctness check for general cases (range of variable,        +
                                                 correctness of filename)  +
+Report generator
+  Supports easy way of gathering work information             +
+  Supports timing of subintervals and loops                   +
+  Supports OpenCL timing                                      -
+  Generates reports in XML formats                            +
+
+XML
+
+Threads
+  Implementations
+    clisp     -/+
+    sbcl      +
+    clozurecl +
+  Base threading features:
+    create thread          +
+    yield                  +
+    wait                   +
+  With-wait                +
+  Mutexes
+    create                 +
+    grab-mutex             +
+    release-mutex          +
+    with-mutex             +
+  Semaphores              
+    create                 +
+    get                    +
+    release                +
+  Conditional variables
+    create                 +
+    variable-lock          +
+    wait-variable          +
+    notify-variable        +
+    broadcast-variable
+  Atomic operations        -
+  Monitors
+  Chains
+  Error conditions         -
+
+Networking
+
+Testing
+  fixture support
+  parameterized cases
+  suite customization 
+  threads
+
+Logging
+
+CFFI???
+
+CXXGenerator
+
+Typised lisp
+  Library
+  Language
+
+Grammar parser
+
+HPCFramework
+  CUDA Wrapper
+  OpenCL Wrapper
+  CPU Wrapper
+  Unit testing
+
+Report analyzer
+
+FFI Framework
+Cxx FFI Generator
+
+
+
